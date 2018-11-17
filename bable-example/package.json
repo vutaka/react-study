@@ -1,0 +1,14 @@
+{
+  "name": "bable-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "scripts": {
+    "build": "babel --presets=react src --out-dir build"
+  }
+}
